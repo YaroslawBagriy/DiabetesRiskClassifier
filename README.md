@@ -38,7 +38,7 @@ TBD
 ## 💡 Future Improvements
 - TBD
 
-### 📁 Project Structure
+## 📁 Project Structure
 ```text
 DiabetesRiskClassifier/
 │
@@ -49,9 +49,6 @@ DiabetesRiskClassifier/
 ├── notebooks/                  
 │   └── 01_eda.ipynb            # Exploratory Data Analysis
 │   └── 02_modeling.ipynb       # Model training and evaluation
-│
-├── scripts/                    
-│   └── preprocess.py           # (Optional) Preprocessing or helper functions
 │
 ├── results/                    
 │   └── accuracy_vs_model.png   # Plots, metrics, confusion matrices, etc.
