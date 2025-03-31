@@ -37,3 +37,26 @@ TBD
 
 ## 💡 Future Improvements
 - TBD
+
+## Project Directory Structure
+DiabetesRiskClassifier/
+│
+├── data/                       
+│   ├── README.md               # How to download the dataset using Kaggle API
+│   └── download_kaggle_data.py # Script to fetch the dataset automatically
+│
+├── notebooks/                  
+│   └── 01_eda.ipynb            # Exploratory Data Analysis
+│   └── 02_modeling.ipynb       # Model training and evaluation
+│
+├── scripts/                    
+│   └── preprocess.py           # (Optional) Preprocessing or helper functions
+│
+├── results/                    
+│   └── accuracy_vs_model.png   # Plots, metrics, confusion matrices, etc.
+│
+├── environment.yaml            # Conda environment for reproducibility
+├── requirements.txt            # Environment for pip users
+├── .gitignore                  # Ignores large or sensitive files (e.g. kaggle.json)
+├── README.md                   # Project overview and instructions
+└── LICENSE                     # Open source license
