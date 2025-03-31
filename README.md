@@ -38,7 +38,8 @@ TBD
 ## 💡 Future Improvements
 - TBD
 
-## Project Directory Structure
+### 📁 Project Structure
+```text
 DiabetesRiskClassifier/
 │
 ├── data/                       
@@ -60,3 +61,4 @@ DiabetesRiskClassifier/
 ├── .gitignore                  # Ignores large or sensitive files (e.g. kaggle.json)
 ├── README.md                   # Project overview and instructions
 └── LICENSE                     # Open source license
+```
