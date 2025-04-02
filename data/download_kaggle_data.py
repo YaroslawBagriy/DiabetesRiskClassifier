@@ -10,7 +10,7 @@ from kaggle.api.kaggle_api_extended import KaggleApi
 
 # Dataset info
 dataset_slug = "alexteboul/diabetes-health-indicators-dataset"
-download_dir = "data/"
+download_dir = "./"
 
 # Make sure directory exists
 os.makedirs(download_dir, exist_ok=True)
