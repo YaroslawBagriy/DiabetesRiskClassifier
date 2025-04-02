@@ -14,7 +14,7 @@ The raw dataset is not included in this GitHub repo due to Kaggle's terms of use
 To download the dataset yourself:
 
 1. Go to your [Kaggle account settings](https://www.kaggle.com/account)
-2. Click “Create New API Token” to download `kaggle.json`
+2. Click “Create New Token” to download `kaggle.json`
 3. Move it to your `.kaggle` folder (see below)
 4. Run the included Python script to download the data.
 
