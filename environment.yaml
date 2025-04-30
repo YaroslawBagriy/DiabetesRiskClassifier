@@ -13,6 +13,7 @@ dependencies:
   - notebook
   - ipykernel
   - imbalanced-learn
+  - imblearn
   - pip
   - pip:
       - kaggle
