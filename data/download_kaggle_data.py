@@ -16,6 +16,8 @@ download_dir = "./"
 os.makedirs(download_dir, exist_ok=True)
 
 # Authenticate and download
+os.environ["KAGGLE_USERNAME"] = os.getenv("KAGGLE_USERNAME")
+os.environ["KAGGLE_KEY"] = os.getenv("KAGGLE_KEY")
 api = KaggleApi()
 api.authenticate()
 
@@ -23,3 +25,5 @@ print(f"📥 Downloading '{dataset_slug}' into '{download_dir}'...")
 api.dataset_download_files(dataset_slug, path=download_dir, unzip=True)
 print("✅ Download complete and unzipped!")
 
+
+# %%
