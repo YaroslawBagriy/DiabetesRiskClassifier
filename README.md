@@ -59,3 +59,12 @@ DiabetesRiskClassifier/
 ├── README.md                   # Project overview and instructions
 └── LICENSE                     # Open source license
 ```
+
+## 📝 Instructions / User Manual
+1. Follow the README.md in /data to download Kaggle data set locally
+2. Navigate to /notebooks
+3. Run scripts sequentially from 01_eda.ipynb to 09_rf_modeling.ipynb
+4. Run ensemble_voting.ipynb to get final results
+5. Navigate to /notebooks_undersampling
+6. Run scripts sequentially from 01_eda.ipynb to 09_rf_modeling.ipynb
+7. Run ensemble_voting.ipynb to get final results
